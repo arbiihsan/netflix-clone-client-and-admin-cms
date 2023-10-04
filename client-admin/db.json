@@ -1,0 +1,143 @@
+{
+  "Users": [
+    {
+      "username": "arbi",
+      "email": "arbi@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "username": "doni",
+      "email": "donny@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "nacha",
+      "email": "nacha@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "12345",
+      "role": "admin",
+      "phoneNumber": "12345",
+      "address": "test",
+      "id": 4
+    }
+  ],
+  "Movies": [
+    {
+      "title": "Despicable Me 2",
+      "synopsis": "test",
+      "trailerUrl": "test",
+      "imgUrl": "test",
+      "rating": "10",
+      "genreId": 1,
+      "Casts": [
+        {
+          "name": "",
+          "profilePict": ""
+        },
+        {
+          "name": "",
+          "profilePict": ""
+        },
+        {
+          "name": "",
+          "profilePict": ""
+        }
+      ],
+      "createdAt": "2023-09-07T04:05:08.146Z",
+      "updatedAt": "2023-09-07T04:05:08.146Z",
+      "id": 3
+    },
+    {
+      "title": "The Raid 2",
+      "synopsis": "test",
+      "trailerUrl": "test",
+      "imgUrl": "test",
+      "rating": "10",
+      "genreId": 1,
+      "authorId": 0,
+      "createdAt": "2023-09-05T09:36:35.484Z",
+      "updatedAt": "2023-09-05T09:36:35.484Z",
+      "id": 4
+    },
+    {
+      "title": "The Matrix",
+      "synopsis": "test",
+      "trailerUrl": "test",
+      "imgUrl": "test",
+      "rating": "10",
+      "genreId": 1,
+      "authorId": 0,
+      "createdAt": "2023-09-05T09:37:59.410Z",
+      "updatedAt": "2023-09-05T09:37:59.410Z",
+      "id": 5
+    },
+    {
+      "title": "Daredevil S1",
+      "synopsis": "Matt Murdock manages to overcome the challenges that he faces due to him being blind since childhood and fights criminals as a lawyer and Daredevil.",
+      "trailerUrl": "https://www.youtube.com/watch?v=jAy6NJ_D5vU",
+      "imgUrl": "https://wallpapercave.com/wp/wp1917131.jpg",
+      "rating": "100",
+      "genreId": null,
+      "Casts": [
+        {
+          "name": "Charlie Cox",
+          "profilePict": "https://flxt.tmsimg.com/assets/318295_v9_bb.jpg"
+        },
+        {
+          "name": "Deborah Ann",
+          "profilePict": "https://flxt.tmsimg.com/assets/519636_v9_bb.jpg"
+        },
+        {
+          "name": "Vincent D'Onofrio",
+          "profilePict": "https://flxt.tmsimg.com/assets/64804_v9_bb.jpg"
+        }
+      ],
+      "createdAt": "2023-09-07T15:49:15.091Z",
+      "updatedAt": "2023-09-07T15:49:15.091Z",
+      "id": 7
+    }
+  ],
+  "Genres": [
+    {
+      "id": 1,
+      "name": "Action",
+      "createdAt": "2023-09-05T00:27:22.632Z",
+      "updatedAt": "2023-09-05T00:27:22.632Z"
+    },
+    {
+      "id": 2,
+      "name": "Action-Comedy",
+      "createdAt": "2023-09-05T00:27:22.632Z",
+      "updatedAt": "2023-09-05T00:27:22.632Z"
+    },
+    {
+      "name": "Drama",
+      "createdAt": "2023-09-05T09:47:31.922Z",
+      "updatedAt": "2023-09-05T09:47:31.922Z",
+      "id": 3
+    },
+    {
+      "name": "Horror",
+      "createdAt": "2023-09-07T08:36:08.182Z",
+      "updatedAt": "2023-09-07T08:36:08.182Z",
+      "id": 4
+    }
+  ],
+  "Casts": [
+    {
+      "Id": 1,
+      "movieId": 1,
+      "name": "Bopak Castello",
+      "profilePict": "",
+      "createdAt": "2023-09-05T00:27:22.632Z",
+      "updatedAt": "2023-09-05T00:27:22.632Z"
+    }
+  ]
+}
